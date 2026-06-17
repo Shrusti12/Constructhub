@@ -1,35 +1,32 @@
-# ConstructHub (React + FastAPI + Postgres)
+📌 Project Overview
 
-## What you get
-- Landing page: Home, About, Contact
-- Auth: Login + Register (role-based: company / client)
-- Marketplace: clients post build requests, companies connect, clients accept, then chat
-- AI Studio: suggestions + concept images generated from your prompt (offline-friendly)
+ConstructHub is a web-based platform designed to streamline construction project management. It enables users to manage projects, track tasks, collaborate with team members, and monitor project progress efficiently.
 
-## Run (dev)
+🚀 Features
+User Authentication and Authorization
+Project Management
+Task Assignment and Tracking
+Dashboard with Project Statistics
+REST API Integration
+Responsive User Interface
+Database Management
+Secure Data Handling
+🛠️ Technologies Used
+Frontend
+React.js
+HTML5
+CSS3
+JavaScript
 
+Backend
+Node.js
+Express.js
+Database
+PostgreSQL
+SQLite
 
-### 1) Backend (FastAPI)
-- `python -m venv .venv`
-- `.\.venv\Scripts\activate`
-- `pip install -r backend\requirements.txt`
-- `uvicorn app.main:app --reload --app-dir backend --host 0.0.0.0 --port 8000`
-
---( .\.venv\Scripts\python -m uvicorn app.main:app --reload --app-dir backend --port 8000)  =>to run backend
-
-### 2) Frontend (React)
-- `cd frontend`
-- `npm install`
-- `npm run dev`
-
-Open:
-- Frontend: `http://localhost:5173`
-- Backend: `http://localhost:8000/docs`
-
-
-
-## Notes
-- Default DB url is in `backend/app/core/config.py` and points to localhost Postgres.
-- AI Studio requires login (uses `/ai/suggest`).
-
-
+Tools & Platforms
+Git
+GitHub
+Postman
+VS Code
