@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
